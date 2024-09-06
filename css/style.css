@@ -2845,7 +2845,9 @@ h6 {
 
 .projects_inner {
   margin-bottom: -30px; }
-
+  .projects_text p {
+    color: black; /* Set text color to black */
+}
 .projects_item {
   position: relative;
   border-radius: 5px;
@@ -3090,7 +3092,7 @@ h6 {
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(255, 255, 255, 0.779);
       color: white;
       opacity: 0;
       transition: opacity 0.3s;
